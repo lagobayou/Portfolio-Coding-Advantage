@@ -51,16 +51,19 @@ h3 {font-size: 3rem;
 h4 {font-size: 1.953rem;
     font-weight: 200;
     line-height: 1.5;
+    margin-left: 1rem;
 }
 
 h5 {font-size: 1.563rem;
     font-weight: 300;
     line-height: 1.5;
+    margin-left: 1rem;
 }
 
 h6 {font-size: 1.25rem;
     font-weight: 400;
-    line-height: 1.25;
+    line-height: 0;
+    margin-left: 1rem;
 }
 
 small, .text_small {font-size: 0.8rem;}
@@ -69,13 +72,18 @@ a {font-size: 1rem;
     color: #FFFFFF
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+}
+
 .box {
   border: solid 1px white;
   height: fit-content;
   width: fit-content;
-  padding: 2.5%;
-  margin-bottom: 5%;
-  display: inline-block;
+  padding: 2rem;
+  margin: 1rem;
 }
 
 ul#colourlist {display: inline-block}
